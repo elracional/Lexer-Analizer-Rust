@@ -1,0 +1,14 @@
+INPUT " What is your name: " ; U$
+PRINT " Hello " ; U$
+INPUT " How many stars do you want: " ;
+S$ = ""
+FOR I& = 1 TO 10
+S$ = S$ + " * "
+NEXT I&
+PRINT S$
+INPUT " Do you want more stars ? " ; A$
+IF LEN ( A$ ) = 0 THEN GOTO 90
+A$ = LEFT$ ( A$ , 1 )
+IF A$ = " Y " OR A$ = " y " THEN GOTO 30
+PRINT " Goodbye " ; U$
+END
