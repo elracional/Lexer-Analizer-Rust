@@ -1,9 +1,9 @@
-# Lexer Analizer Rust
+# Lexer Analyzer Rust
 
-##Installation Terminal:
+## Installation Terminal:
  * curl https://sh.rustup.rs -sSf | sh
 
-# Check the path variable
+## Check the path variable
 https://www.rust-lang.org/tools/install
 
 Shows the way of operation of a lexical analyzer, which through regular expressions and state handlers verifies a source code of the BASIC language in Rust.
